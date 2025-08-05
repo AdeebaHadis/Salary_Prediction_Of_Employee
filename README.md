@@ -21,7 +21,7 @@ The app uses a pre-trained **Machine Learning model** and provides a visual comp
 ### 📊 Prediction Result and Chart
 ![Prediction Output](3.png)
 
-###📈Salary Comparision📉
+### 📈Salary Comparision📉
 ![Prediction Output](4.png)
 
 ---
@@ -51,19 +51,21 @@ The app uses a pre-trained **Machine Learning model** and provides a visual comp
    cd salary-estimator
    
 2. **Install the dependencies**
+   ```bash
    pip install -r requirements.txt
 
 3.**Run the app**
+   ```bash
    streamlit run app.py
-
+   ```
 ---
 
-##🧠 Model Info
+## 🧠 Model Info
 The ML model is trained using features from employee records. It was trained offline using Scikit-learn and serialized using Joblib.
 
 ---
 
-##🌐 Deployment
+## 🌐 Deployment
 This app can be deployed easily on:
 
 1. Streamlit Cloud
@@ -72,7 +74,7 @@ This app can be deployed easily on:
 
 ---
 
-##🙌 Acknowledgements
+## 🙌 Acknowledgements
 Freepik for the banner image
 
 Streamlit Docs for excellent guidance
